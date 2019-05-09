@@ -1,0 +1,25 @@
+$i: 5;
+
+
+@while $i <= 100{
+  .m-h-#{$i} { min-height: #{$i}px; }
+  $i: $i + 5;
+}
+
+$i: 5;
+@while $i <= 100{
+  .m-w-#{$i} { min-width: #{$i}px; }
+  $i: $i + 5;
+}
+
+$i: 5;
+@while $i <= 100{
+  .m-t-#{$i} { margin-top: #{$i}px; }
+  $i: $i + 5;
+}
+
+$i: 5;
+@while $i <= 100{
+  .p-t-#{$i} { padding-top: #{$i}px; }
+  $i: $i + 5;
+}
